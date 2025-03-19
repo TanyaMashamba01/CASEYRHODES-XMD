@@ -13,7 +13,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━━〔 *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃* 〕━━━┈⊷
+        let dec = `╭━━━〔 *Jᴏsʜᴜᴀᴍᴀᴍʙʟᴢᴍ 𝐗𝐌𝐃* 〕━━━┈⊷
 ┃❍⁠⁠⁠⁠╭──────────────
 ┃❍⁠⁠⁠⁠│ *Usᴇʀ* : ${config.OWNER_NAME}
 ┃❍⁠⁠⁠⁠│ *ʙᴀɪʟᴇʏs* : 𝐌𝐮𝐥𝐭𝐢 𝐝𝐞𝐯𝐢𝐜𝐞
@@ -49,15 +49,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/52dotx.jpg` },
+                image: { url: `https://i.postimg.cc/GmRpKL8j/1717623406802.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃🫅🦄👻',
+                        newsletterName: 'Jᴏsʜᴜᴀᴍᴀᴍʙᴋ-𝐗𝐌𝐃🫅🦄👻',
                         serverMessageId: 143
                     }
                 }
@@ -67,7 +66,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/n8dydc.mp3' },
+            audio: { url: 'https://files.catbox.moe/da6m1z.mp4' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
@@ -131,15 +130,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/1YCH2Dd9/lordcasey.jpg` },
+                image: { url: `https://i.postimg.cc/GmRpKL8j/1717623406802.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
-                        newsletterName: 'CASEYRHODES-XMD💖🦄',
+                        newsletterName: 'JOSHUAMAMBOZM-XMD💖🦄',
                         serverMessageId: 143
                     }
                 }
@@ -575,15 +573,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg` },
+                image: { url: `https://i.postimg.cc/GmRpKL8j/1717623406802.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
-                        newsletterName: 'CASEYRHODES-XMD 💖🦄',
+                        newsletterName: 'JOSHUAMAMBO-XMD 💖🦄',
                         serverMessageId: 143
                     }
                 }
@@ -626,15 +623,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg` },
+                image: { url: `https://i.postimg.cc/GmRpKL8j/1717623406802.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
-                        newsletterName: 'CASEYRHODES-XMD 💖🦄',
+                        newsletterName: 'JOSHUAMAMBO-XMD 💖🦄',
                         serverMessageId: 143
                     }
                 }
