@@ -234,15 +234,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/UwjNRU3.jpeg` },
+                image: { url: `https://i.postimg.cc/GmRpKL8j/1717623406802.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: 'CASEYRHODES XMD 💖🦄',
+                        newsletterName: 'JOSHUAMAMBOZM XMD 💖🦄',
                         serverMessageId: 143
                     }
                 }
@@ -252,7 +251,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/o3dyfy.mp3' },
+            audio: { url: 'https://files.catbox.moe/da6m1z.mp4' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
