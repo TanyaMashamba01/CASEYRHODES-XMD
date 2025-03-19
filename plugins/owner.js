@@ -30,7 +30,7 @@ async (conn, mek, m, { from }) => {
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
             image: { url: 'https://i.imgur.com/KADOfEq.jpeg' }, // Image URL from your request
-            caption: `╭━━〔 *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇* 〕━━┈⊷
+            caption: `╭━━〔 *𝕁𝕆𝕊ℍ𝕌𝔸𝕄𝔸𝕄𝔹𝕆ℤ𝕄 𝐓𝐄𝐂𝐇* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -44,8 +44,7 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: 'CASEYRHODES XMD DEVELOPERS🥰💖🥰',
+                    newsletterName: 'JOSHUAMAMBO XMD DEVELOPERS🥰💖🥰',
                     serverMessageId: 143
                 }            
             }
@@ -53,7 +52,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/u66h53.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/da6m1z.mp4' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
