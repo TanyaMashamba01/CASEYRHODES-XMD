@@ -59,15 +59,15 @@ cmd({
       + `📌 *Reply with the number to download in your choice.*`;
 
     const sentMsg = await conn.sendMessage(from, {
-      image: { url: ytData.thumbnail || "https://i.ibb.co/TBpSgZjn/lordcasey.jpg" },
+      image: { url: ytData.thumbnail || "https://files.catbox.moe/s5y92l.jpg" },
       caption: caption,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363302677217436@newsletter",
-          newsletterName: "CASEYRHODES XMD",
+          newsletterJid: "120363347365643318@newsletter",
+          newsletterName: "Joshuamambo1 XMD",
           serverMessageId: 143
         }
       }
