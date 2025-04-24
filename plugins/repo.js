@@ -16,16 +16,16 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *CASEYWEB*
+*|* *Joshuamambo1*
 
 > *CASEYWEB REPO:*
-*|* https://github.com/caseyweb/CASEYRHODES XMD
+*|* https://github.com/Joshuamambo1/stay-at-home XMD
 
 > *SUPPORT GROUP:*
 *|* https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h
 *╰──────────────●●►*
 
-> *CREATED BY CASEYRHODES TECH*
+> *CREATED BY MidKing TECH*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
@@ -34,8 +34,8 @@ await conn.sendMessage(from, { text: repo ,
     forwardingScore: 999,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363318387454868@newsletter',
-      newsletterName: "𝐀ɭι̇ι̇ 𝐌Ɗ 🍁",
+      newsletterJid: '120363347365643318@newsletter',
+      newsletterName: "Joshuamambo1 🍁",
       serverMessageId: 999
     },
 externalAdReply: { 
@@ -43,7 +43,7 @@ title: '𝐀ɭι̇ι̇ 𝐌Ɗ 🍁',
 body: `${pushname}`,
 mediaType: 1,
 sourceUrl: "https://github.com/itx-alii-raza/ALI-MD" ,
-thumbnailUrl: "https://i.ibb.co/8Dzbtwj2/mrfrankofc.jpg" ,
+thumbnailUrl: "https://files.catbox.moe/s5y92l.jpg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
@@ -70,7 +70,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/caseyweb/CASEYRHODES-XMD';
+    const githubRepoURL = 'https://github.com/Joshuamambo1/Muchinyanyakudamarepo-XMD';
 
     try {
         // Extract username and repo name from the URL
@@ -86,15 +86,15 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
+        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 Mambojosh-𝐗𝐌𝐃 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
 
 > *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.*❄️
 
-*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃🫶* 
+*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 Whatsapp Unbannedtech -𝐗𝐌𝐃🫶* 
 
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
-https://github.com/caseyweb/CASEYRHODES-XMD
+https://github.com/farayinenyasha
 ──────────────────
 ${readMore}
 \`BOT NAME:\`❄️
@@ -123,7 +123,7 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
+                    newsletterJid: '120363347365643318@newsletter',
                     newsletterName: '☇ cαsєчrhσdєs suppσrt  ⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
@@ -132,7 +132,7 @@ ${readMore}
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://cdn.ironman.my.id/i/wp4a7x.mp4' },
+            audio: { url: 'https://files.catbox.moe/vpnqp7.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -140,7 +140,7 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
+                    newsletterJid: '120363347365643318@newsletter',
                     newsletterName: '☇ cαsєчrhσdєs suppσrt⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
