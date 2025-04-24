@@ -31,14 +31,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send image + caption + audio combined
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/wN6Gw0ZF/lordcasey.jpg` },  
+            image: { url: `https://files.catbox.moe/s5y92l.jpg` },  
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
+                    newsletterJid: '120363347365643318@newsletter',
                     newsletterName: 'Joshuamambo1 𝐀𝐋𝐈𝐕𝐄🍀',
                     serverMessageId: 143
                 }
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Attach audio within the same "quoted" message for grouping
         await conn.sendMessage(from, { 
-            audio: { url: 'https://files.catbox.moe/5df4ei.m4v' },
+            audio: { url: 'https://files.catbox.moe/vpnqp7.mp3' },
             mimetype: 'audio/mp4',
             ptt: true 
         }, { quoted: mek });
